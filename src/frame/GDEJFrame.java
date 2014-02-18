@@ -40,7 +40,7 @@ public class GDEJFrame extends javax.swing.JFrame {
         proprietaire = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
         Nom = new javax.swing.JLabel();
-        Proprietaire = new javax.swing.JLabel();
+        Jlabel = new javax.swing.JLabel();
         Adresse = new javax.swing.JLabel();
         Tel = new javax.swing.JLabel();
         Email = new javax.swing.JLabel();
@@ -81,7 +81,7 @@ public class GDEJFrame extends javax.swing.JFrame {
 
         Nom.setText("Nom");
 
-        Proprietaire.setText("Proprietaire");
+        Jlabel.setText("Proprietaire");
 
         Adresse.setText("Adresse");
 
@@ -126,7 +126,7 @@ public class GDEJFrame extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel1)
                             .addComponent(Nom)
-                            .addComponent(Proprietaire)
+                            .addComponent(Jlabel)
                             .addComponent(Type)
                             .addComponent(Adresse)
                             .addComponent(Tel))
@@ -176,7 +176,7 @@ public class GDEJFrame extends javax.swing.JFrame {
                             .addComponent(nom, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(35, 35, 35)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(Proprietaire)
+                            .addComponent(Jlabel)
                             .addComponent(proprietaire, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(34, 34, 34)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -211,20 +211,20 @@ public class GDEJFrame extends javax.swing.JFrame {
         String Nom =nom.getText();
         gesstionDespace.setNom(Nom);
         
-        String Proprietaire =proprietaire.getText();
-        gesstionDespace.getProprietaire();
+       String Proprietaire =proprietaire.getText();
+       gesstionDespace.setProprietaire(Proprietaire);
         
         String Adresse = adresse.getText();
-        gesstionDespace.getAdresse();
+        gesstionDespace.setAdresse(Adresse);
         
        String Tel =tel.getText();
-       gesstionDespace.getTel();
+       gesstionDespace.setTel(Tel);
         
        String Email = email.getText();
-        gesstionDespace.getEmail();
+        gesstionDespace.setEmail(Email);
         
         String Type = type.getText();
-        gesstionDespace.getType();
+        gesstionDespace.setType(Type);
         
         
        GestionDespaces  gestionDespaces = new GestionDespaces();
@@ -276,8 +276,8 @@ public class GDEJFrame extends javax.swing.JFrame {
     private javax.swing.JLabel Adresse;
     private javax.swing.JButton Ajouter;
     private javax.swing.JLabel Email;
+    private javax.swing.JLabel Jlabel;
     private javax.swing.JLabel Nom;
-    private javax.swing.JLabel Proprietaire;
     private javax.swing.JLabel Tel;
     private javax.swing.JLabel Type;
     private javax.swing.JTextField adresse;

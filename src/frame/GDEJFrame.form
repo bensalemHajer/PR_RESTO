@@ -33,7 +33,7 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="Nom" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="Proprietaire" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="Jlabel" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="Type" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="Adresse" min="-2" max="-2" attributes="0"/>
                           <Component id="Tel" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -93,7 +93,7 @@
                       </Group>
                       <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="Proprietaire" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Jlabel" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="proprietaire" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
@@ -171,7 +171,7 @@
         <Property name="text" type="java.lang.String" value="Nom"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="Proprietaire">
+    <Component class="javax.swing.JLabel" name="Jlabel">
       <Properties>
         <Property name="text" type="java.lang.String" value="Proprietaire"/>
       </Properties>
